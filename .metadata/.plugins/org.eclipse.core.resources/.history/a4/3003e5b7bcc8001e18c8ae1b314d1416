@@ -1,0 +1,32 @@
+package TestPractise;
+
+class Loop{
+	void DOwhileloop() {
+		//Even -odd Number 1 to 10
+		int a;
+		a=1;
+		do 
+		{
+			if(a%2==0)
+			{
+				System.out.println("even number of a:"  + a);
+			}
+			if (a%2!=0) {
+				System.out.println("Odd number of a:" +a);
+				a++;
+			}
+
+			while (a<=10); 
+		}
+	}
+}
+public class LoopDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Loop lp= new Loop();
+		lp.DOwhileloop();
+		
+	}
+
+}

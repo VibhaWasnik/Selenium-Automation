@@ -1,0 +1,27 @@
+package TestPractise;
+class Whileloop{
+	//Reverse order 10 to 1
+	void reverseorder() {
+		int i=10;
+		System.out.println("Reverse order");
+		while(i>=1)
+		{
+			System.out.println(i);
+			i--;
+		}
+		
+		
+	
+	}
+}
+
+public class WhileloopExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Whileloop wl= new Whileloop();
+		wl.reverseorder();
+
+	}
+
+}
